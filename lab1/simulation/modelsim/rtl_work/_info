@@ -1,0 +1,214 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/EE 371 hwga/lab1/simulation/modelsim
+vcounter
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1619302800
+!i10b 1
+!s100 eZIAf=I>1@gdT0IHi@:9C0
+IjbZe2WU0:<NaAh9>8f8Y[1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 counter_sv_unit
+S1
+R0
+Z5 w1618342959
+Z6 8C:/EE 371 hwga/lab1/counter.sv
+Z7 FC:/EE 371 hwga/lab1/counter.sv
+L0 7
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1619302800.000000
+Z10 !s107 C:/EE 371 hwga/lab1/counter.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/EE 371 hwga/lab1|C:/EE 371 hwga/lab1/counter.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/EE 371 hwga/lab1}
+Z14 tCvgOpt 0
+vcounter_testbench
+R1
+R2
+!i10b 1
+!s100 @DR?MTj;Q6jBEJImzV;C32
+IQQbhdbbm>Z2LEfGSKS;ai2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 26
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vDE1_SoC
+R1
+R2
+!i10b 1
+!s100 0FXnLKo357?X37M7Ua[fa3
+IUcE>QJLIGf7=XWPzL6fBX0
+R3
+Z15 !s105 DE1_SoC_sv_unit
+S1
+R0
+Z16 w1618448687
+Z17 8C:/EE 371 hwga/lab1/DE1_SoC.sv
+Z18 FC:/EE 371 hwga/lab1/DE1_SoC.sv
+L0 7
+R8
+r1
+!s85 0
+31
+R9
+Z19 !s107 C:/EE 371 hwga/lab1/DE1_SoC.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/EE 371 hwga/lab1|C:/EE 371 hwga/lab1/DE1_SoC.sv|
+!i113 1
+R12
+R13
+R14
+n@d@e1_@so@c
+vDE1_SoC_testbench
+R1
+R2
+!i10b 1
+!s100 `Qh<L6ULiDimfXzXBB_7G2
+IBiN<Jb9RGjE>]4?]F=3G@0
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 39
+R8
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R12
+R13
+R14
+n@d@e1_@so@c_testbench
+vdisplay
+R1
+R2
+!i10b 1
+!s100 H:BZHNa3c9WViLXEdc`g51
+IKeg3VXc3[d@:<;eKCM_?[0
+R3
+Z21 !s105 display_sv_unit
+S1
+R0
+Z22 w1618466999
+Z23 8C:/EE 371 hwga/lab1/display.sv
+Z24 FC:/EE 371 hwga/lab1/display.sv
+L0 8
+R8
+r1
+!s85 0
+31
+R9
+Z25 !s107 C:/EE 371 hwga/lab1/display.sv|
+Z26 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/EE 371 hwga/lab1|C:/EE 371 hwga/lab1/display.sv|
+!i113 1
+R12
+R13
+R14
+vdisplay_testbench
+R1
+R2
+!i10b 1
+!s100 E]_e4>UbNRNZ:WW69IQ2X1
+IMz1jQ<]LC3iAFbAa<XX4G3
+R3
+R21
+S1
+R0
+R22
+R23
+R24
+L0 69
+R8
+r1
+!s85 0
+31
+R9
+R25
+R26
+!i113 1
+R12
+R13
+R14
+vFSM
+R1
+R2
+!i10b 1
+!s100 TP@WHGb0;M]LX9>?H]^ea0
+IhmYP0[A0eVcFkc3`VLNd73
+R3
+Z27 !s105 FSM_sv_unit
+S1
+R0
+Z28 w1618449374
+Z29 8C:/EE 371 hwga/lab1/FSM.sv
+Z30 FC:/EE 371 hwga/lab1/FSM.sv
+L0 6
+R8
+r1
+!s85 0
+31
+Z31 !s108 1619302799.000000
+Z32 !s107 C:/EE 371 hwga/lab1/FSM.sv|
+Z33 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/EE 371 hwga/lab1|C:/EE 371 hwga/lab1/FSM.sv|
+!i113 1
+R12
+R13
+R14
+n@f@s@m
+vFSM_testbench
+R1
+R2
+!i10b 1
+!s100 D=?HGh:C[ORT?^kJ2Xfm@1
+IX@]7a?aBn^JnMoK;Oelec3
+R3
+R27
+S1
+R0
+R28
+R29
+R30
+L0 77
+R8
+r1
+!s85 0
+31
+R31
+R32
+R33
+!i113 1
+R12
+R13
+R14
+n@f@s@m_testbench
