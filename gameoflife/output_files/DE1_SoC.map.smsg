@@ -1,0 +1,4 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (10030): Net "red" at DE1_SoC.sv(9) has no driver or initial value, using a default initial value '0' File: C:/ee271/lab8/Lab1_files/DE1_SoC.sv Line: 9
+Warning (10034): Output port "LEDR" at DE1_SoC.sv(7) has no driver File: C:/ee271/lab8/Lab1_files/DE1_SoC.sv Line: 7
+Warning (10034): Output port "GPIO_0[11..0]" at DE1_SoC.sv(6) has no driver File: C:/ee271/lab8/Lab1_files/DE1_SoC.sv Line: 6
