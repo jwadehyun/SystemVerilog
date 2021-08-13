@@ -1,0 +1,386 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:30:52 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# -- Compiling module cells_testbench
+# ** Error: (vlog-13069) ./cells.sv(60): near ";": syntax error, unexpected ';', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '*'.
+# End time: 16:30:52 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./cells.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:31:49 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# -- Compiling module cells_testbench
+# ** Error: ./cells.sv(71): (vlog-2730) Undefined variable: 'clk'.
+# End time: 16:31:49 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./cells.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:15 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# -- Compiling module cells_testbench
+# 
+# Top level modules:
+# 	cells_testbench
+# End time: 16:32:15 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work cells_testbench 
+# Start time: 16:32:16 on Mar 18,2019
+# Loading sv_std.std
+# Loading work.cells_testbench
+# Loading work.cells
+# ** Error: Cannot open macro file: cells_wave.do
+# Error in macro ./runlab.do line 17
+# Cannot open macro file: cells_wave.do
+#     while executing
+# "do cells_wave.do"
+add wave -position end  sim:/cells_testbench/clock
+add wave -position end  sim:/cells_testbench/freset
+add wave -position end  sim:/cells_testbench/cell0
+add wave -position end  sim:/cells_testbench/cell1
+add wave -position end  sim:/cells_testbench/cell2
+add wave -position end  sim:/cells_testbench/cell3
+add wave -position end  sim:/cells_testbench/cell4
+add wave -position end  sim:/cells_testbench/cell5
+add wave -position end  sim:/cells_testbench/cell6
+add wave -position end  sim:/cells_testbench/cell7
+add wave -position end  sim:/cells_testbench/cell8
+add wave -position end  sim:/cells_testbench/next
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/ee271/lab8/Lab1_files/cells_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:33:00 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# -- Compiling module cells_testbench
+# 
+# Top level modules:
+# 	cells_testbench
+# End time: 16:33:00 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:33:02 on Mar 18,2019, Elapsed time: 0:00:46
+# Errors: 3, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work cells_testbench 
+# Start time: 16:33:02 on Mar 18,2019
+# Loading sv_std.std
+# Loading work.cells_testbench
+# Loading work.cells
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./cells.sv(74)
+#    Time: 250 ps  Iteration: 1  Instance: /cells_testbench
+# Break in Module cells_testbench at ./cells.sv line 74
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:45 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# -- Compiling module cells_testbench
+# 
+# Top level modules:
+# 	cells_testbench
+# End time: 16:34:45 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:34:47 on Mar 18,2019, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work cells_testbench 
+# Start time: 16:34:47 on Mar 18,2019
+# Loading sv_std.std
+# Loading work.cells_testbench
+# Loading work.cells
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./cells.sv(76)
+#    Time: 250 ps  Iteration: 1  Instance: /cells_testbench
+# Break in Module cells_testbench at ./cells.sv line 76
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:35:27 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# -- Compiling module cells_testbench
+# 
+# Top level modules:
+# 	cells_testbench
+# End time: 16:35:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:35:33 on Mar 18,2019, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work cells_testbench 
+# Start time: 16:35:33 on Mar 18,2019
+# Loading sv_std.std
+# Loading work.cells_testbench
+# Loading work.cells
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./cells.sv(80)
+#    Time: 450 ps  Iteration: 1  Instance: /cells_testbench
+# Break in Module cells_testbench at ./cells.sv line 80
+add wave -position end  sim:/cells_testbench/dut/ps
+add wave -position end  sim:/cells_testbench/dut/ns
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/ee271/lab8/Lab1_files/cells_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:10 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# -- Compiling module cells_testbench
+# 
+# Top level modules:
+# 	cells_testbench
+# End time: 16:36:10 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:36:12 on Mar 18,2019, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work cells_testbench 
+# Start time: 16:36:13 on Mar 18,2019
+# Loading sv_std.std
+# Loading work.cells_testbench
+# Loading work.cells
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./cells.sv(80)
+#    Time: 450 ps  Iteration: 1  Instance: /cells_testbench
+# Break in Module cells_testbench at ./cells.sv line 80
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:37:50 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# -- Compiling module cells_testbench
+# 
+# Top level modules:
+# 	cells_testbench
+# End time: 16:37:50 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:37:54 on Mar 18,2019, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work cells_testbench 
+# Start time: 16:37:54 on Mar 18,2019
+# Loading sv_std.std
+# Loading work.cells_testbench
+# Loading work.cells
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./cells.sv(81)
+#    Time: 450 ps  Iteration: 1  Instance: /cells_testbench
+# Break in Module cells_testbench at ./cells.sv line 81
+do run
+# Cannot open macro file: run
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:47:44 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# -- Compiling module cells_testbench
+# 
+# Top level modules:
+# 	cells_testbench
+# End time: 16:47:44 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:47:47 on Mar 18,2019, Elapsed time: 0:09:53
+# Errors: 1, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work cells_testbench 
+# Start time: 16:47:47 on Mar 18,2019
+# Loading sv_std.std
+# Loading work.cells_testbench
+# Loading work.cells
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./cells.sv(87)
+#    Time: 850 ps  Iteration: 1  Instance: /cells_testbench
+# Break in Module cells_testbench at ./cells.sv line 87
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:49:15 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# -- Compiling module cells_testbench
+# 
+# Top level modules:
+# 	cells_testbench
+# End time: 16:49:15 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:49:19 on Mar 18,2019, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work cells_testbench 
+# Start time: 16:49:20 on Mar 18,2019
+# Loading sv_std.std
+# Loading work.cells_testbench
+# Loading work.cells
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./cells.sv(87)
+#    Time: 850 ps  Iteration: 1  Instance: /cells_testbench
+# Break in Module cells_testbench at ./cells.sv line 87
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:26 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# -- Compiling module cells_testbench
+# 
+# Top level modules:
+# 	cells_testbench
+# End time: 17:01:26 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:01:30 on Mar 18,2019, Elapsed time: 0:12:10
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work cells_testbench 
+# Start time: 17:01:30 on Mar 18,2019
+# Loading sv_std.std
+# Loading work.cells_testbench
+# Loading work.cells
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./cells.sv(87)
+#    Time: 850 ps  Iteration: 1  Instance: /cells_testbench
+# Break in Module cells_testbench at ./cells.sv line 87
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:01 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# ** Error: ./cells.sv(34): (vlog-2730) Undefined variable: 'start'.
+# ** Error: ./cells.sv(1): (vlog-2730) Undefined variable: 'start'.
+# ** Error: ./cells.sv(1): Identifier must be declared with a port mode: start.
+# -- Compiling module cells_testbench
+# End time: 17:23:01 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./cells.sv""
+
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:24:12 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# ** Error: ./cells.sv(34): (vlog-2730) Undefined variable: 'start'.
+# ** Error: ./cells.sv(1): (vlog-2730) Undefined variable: 'start'.
+# ** Error: ./cells.sv(1): Identifier must be declared with a port mode: start.
+# -- Compiling module cells_testbench
+# ** Error: ./cells.sv(52): (vlog-2730) Undefined variable: 'start'.
+# End time: 17:24:13 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./cells.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:24:42 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# ** Error: ./cells.sv(34): (vlog-2730) Undefined variable: 'start'.
+# ** Error: ./cells.sv(1): (vlog-2730) Undefined variable: 'start'.
+# ** Error: ./cells.sv(1): Identifier must be declared with a port mode: start.
+# -- Compiling module cells_testbench
+# ** Error: ./cells.sv(52): (vlog-2730) Undefined variable: 'start'.
+# End time: 17:24:42 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./cells.sv""
+
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:25:31 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# ** Error: ./cells.sv(34): (vlog-2730) Undefined variable: 'start'.
+# ** Error: ./cells.sv(1): (vlog-2730) Undefined variable: 'start'.
+# ** Error: ./cells.sv(1): Identifier must be declared with a port mode: start.
+# -- Compiling module cells_testbench
+# End time: 17:25:31 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./cells.sv""
+
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:25:58 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# ** Error (suppressible): (vlog-8386) ./cells.sv(35): An enum variable 'ps' may only be assigned the same enum typed variable or one of its values. Variable start requires an explicit cast.
+# -- Compiling module cells_testbench
+# End time: 17:25:58 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./cells.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:28:45 on Mar 18,2019
+# vlog -reportprogress 300 ./cells.sv 
+# -- Compiling module cells
+# -- Compiling module cells_testbench
+# 
+# Top level modules:
+# 	cells_testbench
+# End time: 17:28:45 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:28:48 on Mar 18,2019, Elapsed time: 0:27:18
+# Errors: 29, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work cells_testbench 
+# Start time: 17:28:48 on Mar 18,2019
+# Loading sv_std.std
+# Loading work.cells_testbench
+# Loading work.cells
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./cells.sv(83)
+#    Time: 850 ps  Iteration: 1  Instance: /cells_testbench
+# Break in Module cells_testbench at ./cells.sv line 83
+# End time: 04:07:50 on Mar 19,2019, Elapsed time: 10:39:02
+# Errors: 0, Warnings: 0

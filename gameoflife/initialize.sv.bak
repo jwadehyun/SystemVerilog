@@ -1,0 +1,18 @@
+module initialize (
+	input logic clock, 
+	input logic reset,
+	input logic [7:0] SW, 
+	input logic [3:0] KEY);
+	
+	output logic [7:0][7:0] led;
+	
+	logic [1:0] press;
+	
+	always_comb begin
+		if (SW[0]) begin
+			if (press = 1) begin
+				LEDR[0][
+	
+	end
+		
+endmodule
